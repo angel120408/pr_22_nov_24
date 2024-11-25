@@ -1,0 +1,10 @@
+print(" ")
+print("Ramirez Torres Angel Manuel")
+print("De 3°W")
+print("Numero de control: 1206")
+print(" ")
+
+def generar_n_caracteres(n, caracter):#Inicia la lista 
+    return caracter * n
+
+print(generar_n_caracteres(1000, "x")) #Imprime el resultado  
