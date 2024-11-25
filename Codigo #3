@@ -1,0 +1,13 @@
+print(" ")
+print("Ramirez Torres Angel Manuel")
+print("De 3°W")
+print("Numero de control: 1206")
+print(" ")
+
+def longitud(elemento):#Inicia la funcion para contador
+    contador = 0
+    for _ in elemento:#Se crea el bucle para contador
+        contador += 1
+    return contador
+mi_lista = [10, 20, 25, 30, 40] #lista de num
+print(longitud(mi_lista)) 
