@@ -1,0 +1,12 @@
+print(" ")
+print("Ramirez Torres Angel Manuel")
+print("De 3°W")
+print("Numero de control: 1206")
+print(" ")
+
+def procedimiento(lista):#Inicia la funcion para la lista
+    for numero in lista:
+        #Imprime una fila de asteriscos 
+        print('*' * numero)
+
+procedimiento([4, 9, 7])
