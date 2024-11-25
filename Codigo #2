@@ -1,0 +1,13 @@
+print(" ")
+print("Ramirez Torres Angel Manuel")
+print("De 3°W")
+print("Numero de control: 1206")
+print(" ")
+
+def max_de_tres(a, b, c):#Inici la funcion max de tres num
+    #Devuelve el mayor de los tres números
+    return max(a, b, c)
+
+resultado = max_de_tres(19, 1321, 14753)#Nos muestra el resultado a devolver
+print(resultado)  
+print(" ")
