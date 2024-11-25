@@ -1,0 +1,10 @@
+print(" ")
+print("Ramirez Torres Angel Manuel")
+print("De 3°W")
+print("Numero de control: 1206")
+print(" ")
+
+def inversa(cadena):#Inicia la cadena 
+    return cadena[::-1]
+
+print(inversa("ri oreiuq em ay")) #Imprime el resultado
