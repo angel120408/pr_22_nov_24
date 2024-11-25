@@ -1,0 +1,14 @@
+print(" ")
+print("Ramirez Torres Angel Manuel")
+print("De 3°W")
+print("Numero de control: 1206")
+print(" ")
+
+def max(a, b): #Inicia la funcion max
+    if a > b:  
+        return a   #Inicia la funcion if y else 
+    else:          #Nos dice cual de los numeros es mayor al otro 
+        return b
+
+print(max(12, 38)) #Nos muestra los num utilizados para imprimir y saber cual es mayor  
+print(" ")
