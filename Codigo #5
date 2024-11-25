@@ -1,0 +1,21 @@
+print(" ")
+print("Ramirez Torres Angel Manuel")
+print("De 3°W")
+print("Numero de control: 1206")
+print(" ")
+
+def sum_lista(lista):#Inicia la funcion para suma y lista 
+    resultado = 0 #Se crea el bucle for
+    for num in lista:
+        resultado += num
+    return resultado#Nos muestra el resultado de lista 
+
+def multip_lista(lista):#Inica la funcion para mult y lista 
+    resultado = 1
+    for num in lista:#bucle for
+        resultado *= num
+    return resultado#Nos imprime resultado de lista 
+
+print(sum_lista([1, 2, 3, 4]))#imprime la suma y mult de las listas para dar los resultados pedidos
+print(multip_lista([1, 2, 3, 4]))  
+print(" ")
