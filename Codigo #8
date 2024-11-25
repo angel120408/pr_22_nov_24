@@ -1,0 +1,13 @@
+print(" ")
+print("Ramirez Torres Angel Manuel")
+print("De 3°W")
+print("Numero de control: 1206")
+print(" ")
+
+def superposicion(lista1, lista2):
+    for elem1 in lista1:#Inicia el bucle de listas
+        for elem2 in lista2:
+            if elem1 == elem2: #Se encuentra un elemento común, retornamos True
+                return True
+    return False #No se encuentran elementos comunes, retornamos False
+print(superposicion([1, 2, 3], [3, 4, 5])) #imprime las listas
