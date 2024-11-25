@@ -1,0 +1,14 @@
+print(" ")
+print("Ramirez Torres Angel Manuel")
+print("De 3°W")
+print("Numero de control: 1206")
+print(" ")
+
+def es_palindromo(palabra):
+    #Convertimos la palabra a minúsculas y comparamos con su inversa
+    return palabra.lower() == palabra.lower()[::-1]
+
+#Nos imprime los resultados 
+print(es_palindromo("Angel Manuel"))  
+print(es_palindromo("Practica de palindromo"))   
+print(es_palindromo("Me gusta mucho el arroz")) 
